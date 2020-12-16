@@ -7,9 +7,9 @@ from Mizuhararobot.modules.disable import (
 )
 from Mizuhararobot.modules.sql import afk_sql as sql
 from Mizuhararobot.modules.users import get_user_id
-from telegram import MessageEntity, Update
-from telegram.error import BadRequest
-from telegram.ext import CallbackContext, Filters, MessageHandler, run_async
+from pyrogram import MessageEntity, Update
+from pyrogram.error import BadRequest
+from pyrogram.ext import CallbackContext, Filters, MessageHandler, run_async
 
 AFK_GROUP = 7
 AFK_REPLY_GROUP = 8
